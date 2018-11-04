@@ -1,0 +1,183 @@
+.logo{
+  display: block;
+  margin-right: auto;
+  height: 80px;
+  width: 200px;
+  padding-top: 0;
+  margin: 0;
+}
+
+.navbar{
+background-color: #ccffcc !important;
+}
+
+.nav-item a{
+  color: #004d4d !important;
+}
+
+nav{
+  border-bottom-left-radius: 50px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+div.collapse ul{
+  left: 0px !important;
+}
+
+nav ul li a {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  /* margin: 0 !important;
+  left: 0 !important; */
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #004d4d;
+}
+
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #004d4d;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+  height: 2px;
+}
+
+.bg-img{
+  height: 650px;
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+div.centered strong.mydiet{
+  color: white;
+  font-family: times;
+  font-size: 70px;
+  text-shadow: 10px 2px 2px #000000;
+}
+
+div.centered strong.challenge{
+  color: white;
+  font-family: times;
+  font-size: 49px;
+  text-shadow: 10px 2px 2px #000000;
+}
+
+div.social-float-parent {
+  padding-top: 5%;
+  padding-left: 4%;
+  width: 100%;
+  height: 1200px;
+  background: #FFFFFF;
+  position: relative; }
+div#social-float {
+  left: 80%;
+  width: 250px;
+  position: fixed;
+  bottom: 20px;
+  background: rgba(0,0,0,0.5);
+  list-style-type: none;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+  #social-float li{
+    list-style-type: none;
+    background-color: rgba(0,0,0,0);
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 15px;
+  }
+
+  div.post-title p{
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 !important;
+    color: yellow;
+    mar
+  }
+
+  ul.recent-post li{
+    margin: 0 !important;
+  }
+
+  div#sidebarFirstWrap {
+    float: left;
+    width: 200px;
+    /* position: fixed; */
+    bottom: 20px;
+    background: rgba(0, 77, 77,1);
+    list-style-type: none;
+    border-radius: 20px;
+    padding: 20px;
+    padding-left: 0;
+
+  }
+
+  .active-trail{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  div#sidebarFirstWrap ul li a{
+    font-size: 15px;
+    text-align: center;
+  }
+  div#sidebarFirstWrap ul li a:hover{
+    color: yellow;
+  }
+
+  div.field__item a{
+    font-size: 20px;
+  }
+
+  .pageWrap{
+    float: right !important;
+    padding-right: 5%;
+    right: 17%;
+  }
+
+  .pad-bot{
+    padding-bottom: 10px;
+  }
+
+  #lastupdated{
+    padding-top: 20px;
+     text-align: right !important;
+     padding-bottom: 50px;
+  }
+
+div#footer { width: 100%;
+  height: 350px;
+  background: #ccffcc !important;
+  padding: 40px;
+  padding-bottom: 0 !important;}
+
+
+  div#footer h5{
+    color: black;
+  }

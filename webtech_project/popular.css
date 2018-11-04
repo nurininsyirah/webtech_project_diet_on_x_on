@@ -1,0 +1,129 @@
+
+#kepala {
+  text-align: left;
+    padding-bottom: 32px;
+    position: relative;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-variant: small-caps;
+    font-size: 27px;
+}
+.main-title{
+font-weight: bold;
+font-family: Nunito;
+font-size: 70px;
+font-style: normal;
+font-variant: small-caps;
+font-weight: 400;
+line-height: 30.4px;
+}
+
+#first {
+  padding: 40px;
+  background-size: cover;
+  background-image: url(family.jpg);
+}
+
+#first .Planning {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 950px;
+  margin : 0 auto;
+  text-align: center;
+  font-weight: 300;
+  cursor: pointer;
+}
+h2{
+  font-style: italic;
+  font-weight: bold;
+}
+
+h4{
+  font-style: bold;
+  font-family: sans-serif;
+  font-weight:300;
+
+}
+#second {
+  text-align: center;
+  padding: 40px;
+  background-size: cover;
+  background-image: url(food1.jpg);
+}
+
+.Products {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 950px;
+  margin : 0 auto;
+  ;
+}
+
+#third {
+  text-align: center;
+  padding: 40px;
+  background-size: cover;
+  background-image: url(medicine1.jpg);
+}
+
+.Diseases {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 950px;
+  margin : 0 auto;
+  ;
+}
+
+#forth {
+  text-align: center;
+  padding: 40px;
+  background-size: cover;
+  background-image: url(questMark.jpg);
+}
+
+.Misunderstanding {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.75);
+  max-width: 950px;
+  margin : 0 auto;
+}
+
+.quote {
+  float:right;
+  padding-right:0 auto;
+  color: grey;
+  margin-top: 7px;
+  margin-right: 150px;
+  display: inline-block;
+}
+
+a:active {
+    color: blue;
+}
+a:visited {
+    color: green;
+}
+
+p.info:hover {
+    width: 100%;
+}
+
+.button{
+  background-color: black;
+  background-color: grey;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   font-weight: 200;
+   padding: 5px 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+}

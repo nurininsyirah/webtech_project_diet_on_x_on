@@ -1,0 +1,160 @@
+body{
+  background-image: url("http://ew.content.allrecipes.com/sites/default/files/2017-12/propped-shot-vegan-lunch-prep-960x640.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+}
+.carousel-indicators > li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.rounded-circle{
+  width:200px;
+  height: 200px;
+}
+
+.logo{
+  display: block;
+  margin-right: auto;
+  height: 80px;
+  width: 200px;
+  padding-top: 0;
+  margin: 0;
+}
+
+.navbar{
+background-color: #ccffcc !important;
+}
+
+.nav-item a{
+  color: #004d4d !important;
+}
+
+nav{
+  border-bottom-left-radius: 50px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li a {
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  /* margin: 0; */
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #004d4d;
+}
+
+nav.stroke ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #004d4d;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+  height: 2px;
+}
+
+.round-app{
+  background-color: rgba(0, 77, 77, 0.8);
+  padding-top: 40px;
+  margin: 0;
+  color: white;
+}
+
+#myCarousel{
+  padding-top: 5%;
+}
+
+.carousel-caption{
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  bottom: 5px !important;
+
+}
+.carousel-caption p{
+  font-size: 30px !important;
+}
+.carousel-inner, .carousel-item img{
+  height:600px !important;}
+
+div.title_round_app p{
+  text-align: center;
+  /* font-family: sans-serif; */
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 40px !important;
+  padding-bottom: 20px;
+}
+
+.bg-light{
+  background-color: rgba(255, 204, 0, 1) !important;
+}
+
+.bg-text1{
+  background-color: rgba(0, 77, 77, 0.8);
+}
+h2.featurette-heading , h1{
+  color: yellow;
+}
+h1.featurette-title{
+  text-align: center;
+  color: rgba(0,0,0, 1);
+  font-weight: bold;
+}
+
+p{
+  color: white;
+}
+p.card-text{
+  color: black;
+}
+.white-bg{
+  margin: 0 !important;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+hr.style-eight {
+/* overflow: visible; /* For IE */ */
+border: 0;
+height: 4px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+text-align: center;
+
+}
+
+div#footer { width: 100%;
+  height: 350px;
+  /* background: #eee;  */
+  background: #ccffcc !important;
+  padding: 40px;
+  padding-bottom: 0 !important;}
+
+  div#footer h5{
+    color: black;
+  }
